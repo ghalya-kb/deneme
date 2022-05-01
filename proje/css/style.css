@@ -1,0 +1,86 @@
+body{
+
+    height: 10000px;
+}
+
+/*Start Header */
+
+    /*Start Navigation */
+
+    header .navbar .login{
+        float: right;
+        top: 5px;
+        right: 0px;
+        position:absolute;
+    }
+
+    header .navbar {
+        background-color: #c5e7e9;
+        position: fixed;
+        top: 0px;
+        overflow: hidden;
+        border-bottom-width: 2px;
+    }
+
+    header .navbar .container{
+        float: left;
+        position:relative;
+        
+    }
+
+    hr{
+        width: 5px;
+        background-color: black;
+    }
+    /*End Navigation */
+
+    /*Start Slider */
+
+        
+
+        header .slider{
+            background-image:url(/image/Slider1.jpg);
+            background-position: center !important;
+            background-size: cover !important;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            font-family:cursive;
+        }
+
+
+
+        header .slider .intro {
+        margin-top: 300px;
+        overflow: hidden;
+        }
+
+        header .slider .intro  .p1{
+            float: left;
+            font-size: 27.5px;
+            font-family: cursive;
+        }
+
+        header .slider .intro h3{
+            font-family: system-ui;
+            float: left;
+            padding-left: 10px;
+            padding-top: 2.5px;
+        }
+
+
+        header .slider .intro .p2{
+            clear: both;
+            padding-top: 15px;
+            padding-left: 60px;
+            font-size: 30px;
+            margin-bottom: 60px;
+        }
+
+        
+
+    /*End Slider */
+
+    
+
+/*End Header */
